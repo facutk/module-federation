@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "craco start --hot",
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject"
@@ -37,6 +37,9 @@
     ]
   },
   "devDependencies": {
-    "craco-module-federation": "^1.1.0"
+    "@module-federation/fmr": "0.0.7",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
+    "craco-module-federation": "^1.1.0",
+    "react-refresh": "^0.11.0"
   }
 }
